@@ -1,0 +1,44 @@
+<html>
+
+
+
+<head>
+<style>
+
+    input:focus{
+        outline: none;
+    }
+</style>
+
+</head>
+
+
+
+<body>
+
+<form>
+
+    <input type="text" id="username" placeholder="username" >
+     <button>click to change the above placeholder</button>
+</form>
+
+<script>
+
+     const button=document.querySelector('button');
+     const username=document.querySelector('#username');
+
+     button.addEventListener('click',(e)=>
+     {
+
+        e.preventDefault();
+       
+      username.setAttribute('placeholder','name :)');
+
+     });
+
+
+</script>
+
+
+</body>
+</html>

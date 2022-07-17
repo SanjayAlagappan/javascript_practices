@@ -1,0 +1,55 @@
+body{
+
+  background-image: url('https://w0.peakpx.com/wallpaper/764/1021/HD-wallpaper-spring-sakura-blossom-butterfly-green-texture-flower-white-pink-cherry.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+
+}
+.container
+{
+  
+margin:20px auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+max-width: 400px;
+
+background-color:moccasin
+
+
+
+}
+
+.delete{
+
+  cursor:pointer;
+
+}
+
+.head{
+
+  color:green;
+}
+
+input[type=text]{
+
+  border: 1px solid;
+}
+input[type=text]:focus{
+
+ 
+  border:none;
+  background:moccasin;
+  max-width: 400px;
+
+
+
+}
+
+
+.filtered{
+
+  display: none !important;
+
+
+}
